@@ -1,0 +1,117 @@
+:root {
+  --color-white: #fff;
+  --color-soft-white: #f2f2f2;
+  --color-orange: #e28625;
+  --color-nav-blue: #006971;
+  --color-nav-green: #004140;
+}
+
+/*
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: normal;
+  background-color: var(--color-soft-white);
+  color: var(--color-soft-white);
+}
+
+.column {
+  margin-top: 88px;
+  margin-bottom: 88px;
+}
+
+.rectangle {
+  width: 327px;
+  height: 442px;
+}
+
+.rectangle.orange {
+  background-color: var(--color-orange);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.rectangle.nav-blue {
+  background-color: var(--color-nav-blue);
+}
+
+.rectangle.nav-green {
+  background-color: var(--color-nav-green);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.image-box {
+  width: 64px;
+  height: 40px;
+  margin-top: 48px;
+  margin-left: 48px;
+}
+
+.title-box {
+  color: var(--color-soft-white);
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-left: 48px;
+}
+
+.text-box {
+  color: var(--color-white);
+  opacity: 0.75;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 25px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.button-box {
+  background-color: var(--color-soft-white);
+  width: 146px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-left: 48px;
+  font: 400 15px "Lexend Deca", sans-serif;
+
+  border: 2px solid var(--color-soft-white);
+}
+
+.button-box.orange {
+  color: var(--color-orange);
+}
+.button-box.nav-blue {
+  color: var(--color-nav-blue);
+}
+
+.button-box.nav-green {
+  color: var(--color-nav-green);
+}
+
+.button-box:hover {
+  background-color: transparent;
+  color: var(--color-soft-white);
+  cursor: pointer;
+}
