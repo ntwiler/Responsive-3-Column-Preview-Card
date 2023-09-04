@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
-- Live Site URL: [Add live site URL here](https://ntwiler.github.io/Responsive-3-Column-Preview-Card/)
+- Solution URL: [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
+- Live Site URL: [My Solution](https://ntwiler.github.io/Responsive-3-Column-Preview-Card/)
 
 ## My process
 
