@@ -17,12 +17,12 @@
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
+- View the optimal layout depending on their device's screen size (mobile / desktop)
 - See hover states for interactive elements
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./img/desktop-screenshot.png)
 
 ### Links
 
@@ -34,26 +34,49 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties with variables
-- Flexbox
+- CSS custom properties and variables
+- Flexbox for responsive layout
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+It was a good exercise to practice the planning phase configuring the information and variables to be used in the project, understanding the patterns that will repeat themselves.
 
-To see how you can add code snippets, see below:
+Also, I was able to working with the mobile-first workflow, that help me to understanding better this methodology and yours advantages.
+
+And in order to develop a cleaner code, I treid to use the idea above so it wasn´t needed to repeat all the values of the button in the css: "also did it with the rectangles background"
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<button class="button-box nav-orange">Learn More</button>
+<button class="button-box nav-blue">Learn More</button>
+<button class="button-box nav-green">Learn More</button>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.button-box {
+  background-color: var(--color-soft-white);
+  width: 146px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-left: 48px;
+  font: 400 15px "Lexend Deca", sans-serif;
+  border: 2px solid var(--color-soft-white);
+}
+
+.button-box.nav-orange {
+  color: var(--color-orange);
+}
+.button-box.nav-blue {
+  color: var(--color-nav-blue);
+}
+
+.button-box.nav-green {
+  color: var(--color-nav-green);
 }
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I´ll still looking for ideas that can make my code cleaner, studying the mobile-first methodology and other tools like Sass for future projects
